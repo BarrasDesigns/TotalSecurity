@@ -1,7 +1,10 @@
+/* PALETA DE COLORES */
 :root {
     --fondoEnlaces: #F4080B;
     --fondoDirectorio: #1F1F1F;
 }
+
+/* GLOBALES */
 
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
@@ -26,19 +29,28 @@ i {
     padding: 8px;
 }
 
-.titulo {
-    text-align: center;
-    margin-bottom: 5px;
-}
-.titulo--directorio{
-    color: white;
-}
 #wrapper {
     margin-left: 2.5%;
     width: 95%;
     border-radius: 5%;
     background-color: var(--fondo2);
 }
+
+.titulo {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.titulo--directorio {
+    color: white;
+}
+
+.titulo--directorio:hover {
+    font-size: 25px;
+}
+
+/* NAV */
 
 /* .logo {
     width: 100%;
@@ -52,8 +64,10 @@ i {
 
 .logo__img {
     max-width: 50%;
+    margin-bottom: 20px;
 }
 
+/* REDES */
 .redes {
     background-color: var(--fondoEnlaces);
     width: 100%;
@@ -62,6 +76,7 @@ i {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .icon {
@@ -73,6 +88,9 @@ i {
     transform: scale(1.8) !important;
 }
 
+/* DIRECTORIO */
+
+
 .directorio {
     background-color: var(--fondoDirectorio);
     width: 100%;
@@ -83,9 +101,7 @@ i {
     justify-content: center;
     align-items: center;
 }
-.directorio__enlaces{
+
+.directorio__enlaces {
     text-decoration: none;
-}
-.directorio__enlaces:hover{
-    font-size: 25px;
 }
