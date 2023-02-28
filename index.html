@@ -79,9 +79,69 @@
             </div>
             <div class="directorio">
                 <section>
-                    <a href="#" class="directorio__enlaces">
+                    <button class="boton" onclick="toggleModal()">Seguridad Electrónica</button>
+                    <div tabIndex="0"></div>
+                    <div id="modalContainer" style="display: none;">
+                        <div class="overlay"></div>
+                        <div role="dialog" aria-labelledby="modal1titulo" aria-modal="true" class="modal1">
+                            <h2 class="modal1__titulo">Seguridad Electrónica</h2>
+                            <div class="redes--SE">
+                                <div class="redes--SE__enlaces">
+
+                                    <a href="tel:+528125811934">
+
+                                        <i><svg xmlns="http://www.w3.org/2000/svg"
+                                                class="icon icon-tabler icon-tabler-phone-call" width="44" height="44"
+                                                viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                <path
+                                                    d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                                                <path d="M15 7a2 2 0 0 1 2 2" />
+                                                <path d="M15 3a6 6 0 0 1 6 6" />
+                                            </svg></i>
+                                    </a>
+                                </div>
+                                <div class="redes--SE__enlaces">
+
+                                    <a href="mailto:luis.rodriguez@totalsecurity.mx">
+
+                                        <i><svg xmlns="http://www.w3.org/2000/svg"
+                                                class="icon icon-tabler icon-tabler-at" width="44" height="44"
+                                                viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                <circle cx="12" cy="12" r="4" />
+                                                <path d="M16 12v1.5a2.5 2.5 0 0 0 5 0v-1.5a9 9 0 1 0 -5.5 8.28" />
+                                            </svg></i>
+                                    </a>
+                                </div>
+                                <div class="redes--SE__enlaces">
+
+                                    <a href="https://wa.me/+528125811934">
+
+                                        <i><svg xmlns="http://www.w3.org/2000/svg"
+                                                class="icon icon-tabler icon-tabler-brand-whatsapp" width="44"
+                                                height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff"
+                                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+                                                <path
+                                                    d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1" />
+                                            </svg></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <button class="boton--modal" onclick="toggleModal()">Cerrar</button>
+                            <div tabIndex="0"></div>
+
+                        </div>
+
+                    </div>
+                    <!-- <a href="#" class="directorio__enlaces">
                         <h4 class="titulo--directorio">Seguridad Electrónica</h4>
-                    </a>
+                    </a> -->
                 </section>
 
                 <section>
@@ -160,19 +220,20 @@
                 <div class="frame">
 
                     <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3595.6919962032844!2d-100.24089678553375!3d25.681502918184343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662eaa013f5fb41%3A0x525d19cd860cfdf2!2sTotal%20Security!5e0!3m2!1ses-419!2smx!4v1677539493396!5m2!1ses-419!2smx"
-                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3595.6919962032844!2d-100.24089678553375!3d25.681502918184343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662eaa013f5fb41%3A0x525d19cd860cfdf2!2sTotal%20Security!5e0!3m2!1ses-419!2smx!4v1677539493396!5m2!1ses-419!2smx"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                    <section>
-                        
-                    </section>
+                <section>
+
+                </section>
             </div>
         </main>
         <footer>
 
         </footer>
     </div>
+    <script src="./js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
