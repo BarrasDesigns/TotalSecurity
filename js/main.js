@@ -1,5 +1,5 @@
 const toggleModal1 = ((e) => {
-  const modal = document.getElementById("modalContainer--SE");
+  const modal = document.getElementById("modalContainer--ventas");
   if (modal.style.display === "none") {
     modal.style.display = "block";
     trapped = trapFocus(modal);
@@ -9,7 +9,7 @@ const toggleModal1 = ((e) => {
   } 
 })
 const toggleModal2 = ((e) => {
-  const modal = document.getElementById("modalContainer--cobranzas");
+  const modal = document.getElementById("modalContainer--hikStore");
   if (modal.style.display === "none") {
     modal.style.display = "block";
     trapped = trapFocus(modal);
@@ -19,7 +19,27 @@ const toggleModal2 = ((e) => {
   } 
 })
 const toggleModal3 = ((e) => {
-  const modal = document.getElementById("modalContainer--ventas");
+  const modal = document.getElementById("modalContainer--cobranza");
+  if (modal.style.display === "none") {
+    modal.style.display = "block";
+    trapped = trapFocus(modal);
+  } else {
+    modal.style.display = "none";
+    trapped.onClose();
+  } 
+})
+const toggleModal4 = ((e) => {
+  const modal = document.getElementById("modalContainer--atencionAclientes");
+  if (modal.style.display === "none") {
+    modal.style.display = "block";
+    trapped = trapFocus(modal);
+  } else {
+    modal.style.display = "none";
+    trapped.onClose();
+  } 
+})
+const toggleModal5 = ((e) => {
+  const modal = document.getElementById("modalContainer--soporteTecnico");
   if (modal.style.display === "none") {
     modal.style.display = "block";
     trapped = trapFocus(modal);

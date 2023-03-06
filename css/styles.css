@@ -192,12 +192,12 @@ i {
 
 }
 
-.modal1__titulo {
+.modal__titulo {
     color: white;
     text-align: center;
 }
 
-.modal1--cobranzas {
+/* .modal--cobranzas {
     position: absolute;
     z-index: 10;
     top: 50%;
@@ -211,14 +211,14 @@ i {
     overflow: auto;
     border-radius: 9px;
 
-}
+} */
 
-.modal1--cobranzas__titulo {
+/* .modal--cobranzas__titulo {
     color: white;
     text-align: center;
-}
+} */
 
-.modal1--ventas {
+/* .modal1--ventas {
     position: absolute;
     z-index: 10;
     top: 50%;
@@ -231,13 +231,13 @@ i {
     padding: 1em;
     overflow: auto;
     border-radius: 9px;
-}
+} */
 
-.modal1--ventas__titulo {
+/* .modal1--ventas__titulo {
     color: white;
     text-align: center;
 
-}
+} */
 
 .boton {
     background-color: transparent;
@@ -278,15 +278,22 @@ i {
         width: 10rem;
         height: 10rem;
     }
-
-    .icon, i {
+    .icon,
+    i {
         padding: 0px;
         width: 30px !important;
         height: 30px !important;
     }
-
 }
-
+@media ((min-width: 271px) and (max-width:468px)) {
+    .icon,
+    i {
+        padding: 0px;
+        width: 30px !important;
+        height: 30px !important;
+    }
+     
+}
 @media (max-width: 650px) {
     .hero {
         height: 20rem;
