@@ -115,7 +115,7 @@ i {
 .objectfit>img {
     width: 11rem;
     height: 11rem;
-    object-fit: contain;
+    object-fit: cover;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
