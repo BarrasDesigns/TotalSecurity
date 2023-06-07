@@ -107,6 +107,24 @@ i {
 }
 
 /* VIDEO */
+.introContenedor {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.contVideo {
+    display: flex;
+    justify-content: center;
+}
+
+.boton--intro {
+    border-radius: 50%;
+    padding: 20px;
+    background: var(--fondoEnlaces);
+}
+
 .video {
     width: 100%;
     height: 364px;
