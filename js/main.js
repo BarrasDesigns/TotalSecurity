@@ -93,3 +93,23 @@ const toggleModal5 = ((e) => {
     trapped.onClose();
   }
 })
+const toggleModal6 = ((e) => {
+  const modal = document.getElementById("modalContainer--areaTecnica");
+  if (modal.style.display === "none") {
+    modal.style.display = "block";
+    trapped = trapFocus(modal);
+  } else {
+    modal.style.display = "none";
+    trapped.onClose();
+  }
+})
+const toggleModal7 = ((e) => {
+  const modal = document.getElementById("modalContainer--marketing");
+  if (modal.style.display === "none") {
+    modal.style.display = "block";
+    trapped = trapFocus(modal);
+  } else {
+    modal.style.display = "none";
+    trapped.onClose();
+  }
+})
